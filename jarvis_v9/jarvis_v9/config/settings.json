@@ -1,0 +1,68 @@
+{
+  "user_name": "Sir",
+  "ai_name": "JARVIS",
+  "tts_voice": "en-IN-PrabhatNeural",
+  "tts_edge_rate": "+5%",
+  "tts_edge_pitch": "+0Hz",
+  "tts_rate": 185,
+  "hinglish_display_mode": true,
+  "hinglish_speak_mode": true,
+  "hindi_speak_mode": false,
+  "stt_language": "hi-en",
+  "stt_fallback_langs": [
+    "hi-IN",
+    "en-IN",
+    "en-US"
+  ],
+  "whisper_model": "base",
+  "offline_mode": false,
+  "ollama_url": "http://localhost:11434",
+  "ollama_model": "llama3.2",
+  "ollama_vision_model": "llava",
+  "ollama_advanced_models": {
+    "vision": [
+      "llava",
+      "llama3.2-vision",
+      "moondream"
+    ],
+    "chat": [
+      "llama3.2",
+      "mistral",
+      "phi4",
+      "qwen2.5"
+    ],
+    "code": [
+      "codellama",
+      "deepseek-coder-v2"
+    ],
+    "reasoning": [
+      "deepseek-r1",
+      "qwq"
+    ]
+  },
+  "theme": "dark_blue",
+  "groq_api_key": "",
+  "cerebras_api_key": "",
+  "sambanova_api_key": "",
+  "openrouter_api_key": "",
+  "nvidia_api_key": "",
+  "google_api_key": "",
+  "openai_api_key": "",
+  "V9_NEW": {
+    "esc_orb_mode": false,
+    "esc_orb_size": 120,
+    "esc_orb_position": {
+      "x": null,
+      "y": null
+    },
+    "computer_control_enabled": true,
+    "vision_enabled": true,
+    "learning_enabled": true,
+    "auto_screenshot": true,
+    "safety_confirm_destructive": true,
+    "duckduckgo_enabled": true,
+    "web_search_results": 5,
+    "training_auto_export": true,
+    "training_export_path": "data/training/"
+  }
+}
